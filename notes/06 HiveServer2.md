@@ -66,6 +66,8 @@ HiveServer is an optional service that allows a remote client to submit requests
 
 ​	（2）beeline进入到beeline的命令行
 ​				beeline> !connect jdbc:hive2://<host>:<port>/<db> root 123
+				beeline> !close
+				beeline> !quit
 
 ​		注意：
 
